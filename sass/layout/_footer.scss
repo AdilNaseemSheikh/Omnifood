@@ -5,6 +5,8 @@
   &__container {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
     .logo-col {
       display: flex;
       flex-direction: column;
@@ -19,6 +21,10 @@
         list-style: none;
         display: flex;
         gap: 2.4rem;
+        ion-icon{
+          height: 2.4rem;
+          width: 2.4rem;
+        }
       }
       .copyright {
         font-size: 1.4rem;

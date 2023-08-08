@@ -36,3 +36,27 @@
   font-weight: 500;
   margin-bottom: 4rem;
 }
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.icon-checkmark {
+  width: 3rem;
+  height: 3rem;
+  color: $clr-primary;
+}
+
+.icon-meal {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: $clr-primary;
+}

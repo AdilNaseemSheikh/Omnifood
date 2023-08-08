@@ -1,0 +1,24 @@
+.recommends {
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 3rem;
+  &__images {
+    display: flex;
+    & > * {
+    //   box-sizing: content-box;
+      width: 4.8rem;
+      height: 4.8rem;
+      border-radius: 50%;
+      border: 3px solid $clr-primary-lightest;
+      margin-right: -1.6rem;
+    }
+  }
+  &__text {
+    font-size: 1.8rem;
+    font-weight: 600;
+    span {
+      color: $clr-primary;
+    }
+  }
+}

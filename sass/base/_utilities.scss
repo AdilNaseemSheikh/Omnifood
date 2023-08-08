@@ -6,3 +6,13 @@ needed a slightly different style like margin bottom which
 is unique on a specific page, then we apply that different 
 style through utility classes to make component reusable.
 */
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.text-center{
+  text-align: center;
+}

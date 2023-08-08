@@ -1,0 +1,28 @@
+// background-color: $clr-primary-lightest;
+.section-hero {
+  background-color: $clr-primary-lightest;
+  padding: 4.8rem 0 9.6rem 0;
+  .hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+    padding: 0 3.2rem;
+    &__text-box {
+    }
+    &__description {
+      font-size: 2rem;
+      line-height: 1.6;
+      margin-bottom: 4.8rem;
+    }
+    &__buttons {
+    }
+    &__image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

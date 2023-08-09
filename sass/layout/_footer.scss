@@ -21,9 +21,15 @@
         list-style: none;
         display: flex;
         gap: 2.4rem;
-        ion-icon{
+        ion-icon {
           height: 2.4rem;
           width: 2.4rem;
+          color: #767676;
+          transition: all 0.3s;
+          cursor: pointer;
+          &:hover {
+            color: #555;
+          }
         }
       }
       .copyright {
@@ -52,7 +58,11 @@
       text-decoration: none;
       font-size: 1.6rem;
       color: #767676;
+      cursor: pointer;
       transition: all 0.3s;
+      &:hover {
+        color: #555;
+      }
     }
   }
 }

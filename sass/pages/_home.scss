@@ -45,8 +45,13 @@
     gap: 1.6rem;
     padding: 1.6rem;
     .gallery-item {
+      overflow: hidden;
       img {
+        transition: all .4s;
         width: 100%;
+        &:hover{
+          transform: scale(1.1)
+        }
       }
     }
   }

@@ -7,6 +7,7 @@
   height: 9.6rem;
   .logo {
     height: 2.2rem;
+    cursor: pointer;
     img {
       height: 100%;
       width: 100%;
@@ -20,11 +21,23 @@
     font-weight: 500;
     list-style: none;
     align-items: center;
+    &-link{
+      transition: all 0.3s;
+      cursor: pointer;
+      &:hover{
+        color: $clr-primary-dark;
+      }
+    }
     &-cta {
+      transition: all 0.3s;
+      cursor: pointer;
       color: white;
       padding: 1.2rem 2.4rem;
       border-radius: 9px;
       background-color: $clr-primary;
+      &:hover {
+        background-color: $clr-primary-dark;
+      }
     }
   }
 }

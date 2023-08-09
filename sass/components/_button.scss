@@ -12,11 +12,18 @@
 .btn-primary {
   color: white;
   background-color: $clr-primary;
+  &:hover {
+    background-color: $clr-primary-dark;
+  }
 }
 
 .btn-secondary {
   background-color: white;
-  color: $clr-primary;
+  color: #555;
+  &:hover{
+    background-color: transparent;
+    box-shadow: inset 0 0 0 3px #fff;
+  }
 }
 
 .btn-inline {
@@ -24,11 +31,15 @@
   font-weight: normal;
   padding: 0;
   margin-top: 4.8rem;
-  color: #e67e22;
+  color: $clr-primary;
   border-bottom: 1px solid currentColor;
   border-radius: 0px;
   padding-bottom: 2px;
   transition: all 0.3s;
+  &:hover{
+    color: $clr-primary-dark;
+    border-bottom: 1px solid transparent;
+  }
 }
 
 .btn--form {
@@ -36,4 +47,8 @@
   color: #fdf2e9;
   align-self: end;
   padding: 1.2rem;
+  &:hover{
+    background-color: white;
+    color: #555;
+  }
 }

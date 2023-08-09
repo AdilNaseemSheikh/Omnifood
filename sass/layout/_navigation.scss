@@ -21,6 +21,9 @@
     font-weight: 500;
     list-style: none;
     align-items: center;
+    @media only screen and (max-width: 950px) {
+      display: none;
+    }
     &-link{
       transition: all 0.3s;
       cursor: pointer;

@@ -3,8 +3,17 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-  margin-bottom: 9.6rem;
+  // margin-bottom: 9.6rem;
   align-items: center;
+  @media only screen and (max-width: 550px) {
+    grid-template-columns: 1fr;
+    .step-img-box:nth-child(2) {
+      grid-row: 1/2;
+    }
+    .step-img-box:last-child {
+      grid-row: 5/6;
+    }
+  }
   .step-text-box {
     .step-number {
       font-size: 8.6rem;

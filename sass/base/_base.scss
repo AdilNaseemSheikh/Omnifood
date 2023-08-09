@@ -7,6 +7,15 @@ font adjustment thing are written inside base file */
 }
 html {
   font-size: 62.5%;
+  @media only screen and (min-width: 2200px) {
+    font-size: 100%;
+  }
+  @media only screen and (max-width: 1200px) {
+    font-size: 56.25%;
+  }
+  @media only screen and (max-width: 950px) {
+    font-size: 50%;
+  }
 }
 body {
   font-family: "Rubik", sans-serif;

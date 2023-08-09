@@ -5,6 +5,22 @@
   &__container {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+    @media only screen and (max-width: 1200px) {
+      column-gap: 4.8rem;
+      row-gap: 6.4rem;
+    }
+    @media only screen and (max-width: 900px) {
+      grid-template-columns: repeat(6, 1fr);
+
+      .nav-col {
+        grid-row: 1;
+        grid-column: span 2;
+        margin-bottom: 3.2rem;
+      }
+      .logo-col,.address-col{
+        grid-column: span 3;
+      }
+    }
     column-gap: 6.4rem;
     row-gap: 9.6rem;
     .logo-col {

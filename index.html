@@ -19,30 +19,33 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script defer src="./script.js"></script>
     <title>Omnifood — Never cook again!</title>
   </head>
   <body>
     <header class="header">
-      <div class="logo">
-        <img src="./img/omnifood-logo.png" alt="" />
+      <div class="navbar">
+        <div class="logo">
+          <img src="./img/omnifood-logo.png" alt="" />
+        </div>
+        <input
+          type="checkbox"
+          name=""
+          id="nav__checkbox"
+          class="nav__checkbox"
+          style="display: none"
+        />
+        <nav class="nav">
+          <ul class="main-nav">
+            <li class="main-nav-link">How it works</li>
+            <li class="main-nav-link">Meals</li>
+            <li class="main-nav-link">Testimonials</li>
+            <li class="main-nav-link">Pricing</li>
+            <li class="main-nav-cta">Try for free</li>
+          </ul>
+        </nav>
+        <label for="nav__checkbox" class="burger"></label>
       </div>
-      <input
-        type="checkbox"
-        name=""
-        id="nav__checkbox"
-        class="nav__checkbox"
-        style="display: none"
-      />
-      <nav class="nav">
-        <ul class="main-nav">
-          <li class="main-nav-link">How it works</li>
-          <li class="main-nav-link">Meals</li>
-          <li class="main-nav-link">Testimonials</li>
-          <li class="main-nav-link">Pricing</li>
-          <li class="main-nav-cta">Try for free</li>
-        </ul>
-      </nav>
-      <label for="nav__checkbox" class="burger"></label>
     </header>
     <main>
       <section class="section-hero">

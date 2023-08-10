@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -26,15 +26,23 @@
       <div class="logo">
         <img src="./img/omnifood-logo.png" alt="" />
       </div>
-      <nav>
+      <input
+        type="checkbox"
+        name=""
+        id="nav__checkbox"
+        class="nav__checkbox"
+        style="display: none"
+      />
+      <nav class="nav">
         <ul class="main-nav">
-          <li class="main-nav-link">How it Works</li>
+          <li class="main-nav-link">How it works</li>
           <li class="main-nav-link">Meals</li>
           <li class="main-nav-link">Testimonials</li>
           <li class="main-nav-link">Pricing</li>
           <li class="main-nav-cta">Try for free</li>
         </ul>
       </nav>
+      <label for="nav__checkbox" class="burger"></label>
     </header>
     <main>
       <section class="section-hero">
@@ -49,7 +57,9 @@
               nutritional needs.
             </p>
             <div class="hero__buttons">
-              <a href="#" class="btn btn-primary margin-right-sm">Start eating well</a>
+              <a href="#" class="btn btn-primary margin-right-sm"
+                >Start eating well</a
+              >
               <a href="#" class="btn btn-secondary">Learn more &downarrow;</a>
             </div>
             <div class="recommends">
